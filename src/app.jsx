@@ -10,7 +10,7 @@ export function App() {
       <section class="flex flex-row justify-between">
         <div class="flex flex-col space-y-3">
           <div>
-            <h1 class="text-3xl font-bold">Julian Poma</h1>
+            <h1 class="text-3xl font-bold">Julián Poma</h1>
             <span class="text-muted font-mono text-sm">
               Detail-oriented Full Stack Engineer
             </span>
@@ -37,7 +37,7 @@ export function App() {
           <div class="hidden text-sm print:block">
             <span class="block font-mono">julianepoma@gmail.com</span>
             <span class="block font-mono">github.com/julianpoma</span>
-            <span class="block font-mono">argentina</span>
+            <span class="block font-mono">julianpoma.com</span>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ export function App() {
       <Section title="About">
         <p class="text-md text-pretty">
           Hola! I'm a Senior Full Stack Engineer and private pilot from
-          Argentina. I have 5+ years of experience focusing on backend but with
+          Argentina. I have 5 years of experience focusing on backend but with
           considerable time in the frontend too. I work mostly with Typescript,
           React and Node.js; currently diving into Go and Rust. I'm a motivated
           team-player that took many projects from 0-1.
@@ -63,7 +63,7 @@ export function App() {
           company="P22 Studio"
           href="https://www.p22.studio/"
           role="Senior Full Stack Developer"
-          timeline="2020 - Present"
+          timeline="2021 - Present"
         >
           I work in a cross-team collaboration setting that developed many 0-1
           products. These include{' '}
@@ -103,7 +103,7 @@ export function App() {
           company="Publica.la"
           href="https://publica.la/"
           role="Full Stack Developer"
-          timeline="2019 - 2020"
+          timeline="2020 - 2021"
         >
           Implemented an intake pipeline for thousands of book metadata and
           files. Contributed to the creation of Publica.la Marketplace for
@@ -115,7 +115,7 @@ export function App() {
           company="Whyline"
           href="https://whyline.com/home"
           role="Backend Developer"
-          timeline="2018 - 2019"
+          timeline="2019 - 2020"
         >
           Contributed to the development of Whyline's mobile app backend.
           Refactored an agigng notifications server using Node.js and Redis.
@@ -126,7 +126,7 @@ export function App() {
         <div>
           <div class="flex flex-row justify-between">
             <h3 class="font-semibold">Software & Systems Engineer</h3>
-            <span class="text-muted text-sm tabular-nums">2018</span>
+            <span class="text-muted text-sm tabular-nums">2019</span>
           </div>
 
           <span class="font-mono text-sm leading-none">
