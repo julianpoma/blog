@@ -1,4 +1,4 @@
-import { Github, Globe2, Linkedin, Mail } from 'lucide-preact'
+import { Brackets, Github, Globe2, Linkedin, Mail } from 'lucide-preact'
 import { Badge } from './components/badge'
 import { LinkButton } from './components/link_button'
 import { Section } from './components/section'
@@ -11,7 +11,7 @@ export function App() {
         <div class="flex flex-col space-y-3">
           <div>
             <h1 class="text-3xl font-bold">Julián Poma</h1>
-            <span class="text-muted font-mono text-sm">
+            <span class="font-mono text-sm text-muted">
               Detail-oriented Full Stack Engineer
             </span>
           </div>
@@ -19,6 +19,10 @@ export function App() {
           <div class="flex flex-row gap-x-1 print:hidden">
             <LinkButton href="mailto:julianepoma@gmail.com">
               <Mail strokeWidth={1.5} size={16} />
+            </LinkButton>
+
+            <LinkButton href="https://neucoas.bearblog.dev/blog">
+              <Brackets strokeWidth={1.5} size={16} />
             </LinkButton>
 
             <LinkButton href="https://en.wikipedia.org/wiki/Rosario">
@@ -126,7 +130,7 @@ export function App() {
         <div>
           <div class="flex flex-row justify-between">
             <h3 class="font-semibold">Software & Systems Engineer</h3>
-            <span class="text-muted text-sm tabular-nums">2019</span>
+            <span class="text-sm tabular-nums text-muted">2019</span>
           </div>
 
           <span class="font-mono text-sm leading-none">
