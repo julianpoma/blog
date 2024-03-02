@@ -7,7 +7,7 @@ import { WorkItem } from './components/work_item'
 export function App() {
   return (
     <div class="container mx-auto max-w-2xl space-y-8 p-8">
-      <section class="flex flex-row justify-between">
+      <section class="flex flex-row justify-between gap-x-3">
         <div class="flex flex-col space-y-3">
           <div>
             <h1 class="text-3xl font-bold">Julián Poma</h1>
@@ -16,7 +16,7 @@ export function App() {
             </span>
           </div>
 
-          <div class="flex flex-row gap-x-1 print:hidden">
+          <div class="flex flex-row flex-wrap gap-1 print:hidden">
             <LinkButton href="mailto:julianepoma@gmail.com">
               <Mail strokeWidth={1.5} size={16} />
             </LinkButton>
