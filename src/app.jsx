@@ -1,4 +1,4 @@
-import { Brackets, Github, Globe2, Linkedin, Mail } from 'lucide-preact'
+import { Brackets, Github, Globe2, Linkedin, Mail, Phone } from 'lucide-preact'
 import { Badge } from './components/badge'
 import { LinkButton } from './components/link_button'
 import { Section } from './components/section'
@@ -19,6 +19,10 @@ export function App() {
           <div class="flex flex-row gap-x-1 print:hidden">
             <LinkButton href="mailto:julianepoma@gmail.com">
               <Mail strokeWidth={1.5} size={16} />
+            </LinkButton>
+
+            <LinkButton href="https://cal.com/julianpoma">
+              <Phone strokeWidth={1.5} size={16} />
             </LinkButton>
 
             <LinkButton href="https://neucoas.bearblog.dev/blog">
