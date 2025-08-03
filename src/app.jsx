@@ -17,7 +17,7 @@ export function App() {
           </div>
 
           <div class="flex flex-row flex-wrap gap-1 print:hidden">
-            <LinkButton href="mailto:julianepoma@gmail.com">
+            <LinkButton href="mailto:hola@julianpoma.com">
               <Mail strokeWidth={1.5} size={16} />
             </LinkButton>
 
